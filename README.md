@@ -39,7 +39,7 @@ A modern Chrome extension to automatically close your least recently used (LRU) 
 ---
 
 ## Credits
-- **Design & Development:** [Your Name]
+- **Design & Development:** [Arsh Wadhwa]
 - **Logo:** Your custom `icons/icons.png`
 - **Font:** [Montserrat](https://fonts.google.com/specimen/Montserrat) via Google Fonts
 
