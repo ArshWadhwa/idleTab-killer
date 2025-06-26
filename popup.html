@@ -9,8 +9,8 @@
       background: #f4f6fb;
       margin: 0;
       padding: 0;
-      min-width: 320px;
-      min-height: 220px;
+      min-width: 220px;
+      min-height: 140px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -18,35 +18,37 @@
     }
     .container {
       background: #fff;
-      border-radius: 18px;
-      box-shadow: 0 6px 32px rgba(30, 34, 90, 0.13), 0 1.5px 4px rgba(30, 34, 90, 0.07);
-      padding: 32px 28px 28px 28px;
+      border-radius: 14px;
+      box-shadow: 0 4px 18px rgba(30, 34, 90, 0.13), 0 1px 3px rgba(30, 34, 90, 0.07);
+      padding: 18px 14px 14px 14px;
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 100%;
-      max-width: 350px;
+      max-width: 210px;
       position: relative;
     }
     .logo {
-      width: 48px;
-      height: 48px;
-      margin-bottom: 10px;
+      width: 32px;
+      height: 32px;
+      margin-bottom: 7px;
       display: flex;
       align-items: center;
       justify-content: center;
       background: linear-gradient(135deg, #f4978e 0%, #f08080 100%);
       border-radius: 50%;
-      box-shadow: 0 2px 8px rgba(244, 151, 142, 0.10);
+      box-shadow: 0 1px 4px rgba(244, 151, 142, 0.10);
     }
-    .logo svg {
-      width: 28px;
-      height: 28px;
-      color: #fff;
+    .logo img {
+      width: 26px !important;
+      height: 26px !important;
+      border-radius: 50%;
+      box-shadow: 0 1px 4px rgba(244,151,142,0.10);
+      object-fit: cover;
     }
     h3 {
-      margin: 0 0 18px 0;
-      font-size: 1.35rem;
+      margin: 0 0 10px 0;
+      font-size: 1.05rem;
       color: #232946;
       letter-spacing: 0.5px;
       font-weight: 700;
@@ -54,10 +56,10 @@
     }
     #num-tabs {
       border: 1.5px solid #e0e3ea;
-      border-radius: 8px;
-      font-size: 16px;
-      padding: 10px 14px;
-      margin-bottom: 18px;
+      border-radius: 6px;
+      font-size: 13px;
+      padding: 6px 10px;
+      margin-bottom: 10px;
       outline: none;
       transition: border 0.2s, box-shadow 0.2s;
       width: 100%;
@@ -68,42 +70,42 @@
     }
     #num-tabs:focus {
       border-color: #f4978e;
-      box-shadow: 0 0 0 2px #f4978e33;
+      box-shadow: 0 0 0 1.5px #f4978e33;
       background: #fff;
     }
     #close-btn {
       background: #f08080;
       color: #fff;
       border: none;
-      border-radius: 10px;
-      font-size: 17px;
-      padding: 12px 0;
+      border-radius: 7px;
+      font-size: 14px;
+      padding: 8px 0;
       width: 100%;
       cursor: pointer;
       font-weight: 700;
       letter-spacing: 0.5px;
-      box-shadow: 0 2px 8px rgba(240,128,128,0.13), 0 1.5px 4px rgba(30, 34, 90, 0.07);
+      box-shadow: 0 1px 4px rgba(240,128,128,0.13), 0 0.7px 2px rgba(30, 34, 90, 0.07);
       transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
-      margin-top: 4px;
+      margin-top: 3px;
       outline: none;
     }
     #close-btn:hover, #close-btn:focus {
       background: #f4978e;
-      box-shadow: 0 4px 16px rgba(240,128,128,0.18);
-      transform: translateY(-2px) scale(1.04);
+      box-shadow: 0 2px 8px rgba(240,128,128,0.18);
+      transform: translateY(-1px) scale(1.03);
     }
     #error-msg {
       color: #d7263d;
-      margin-top: 14px;
-      font-size: 15px;
+      margin-top: 8px;
+      font-size: 11px;
       text-align: center;
-      min-height: 18px;
+      min-height: 12px;
       font-weight: 500;
       letter-spacing: 0.2px;
       background: #fff0f3;
-      border-radius: 6px;
-      padding: 6px 10px 5px 10px;
-      box-shadow: 0 1px 4px rgba(215,38,61,0.06);
+      border-radius: 4px;
+      padding: 3px 6px 3px 6px;
+      box-shadow: 0 0.5px 2px rgba(215,38,61,0.06);
       display: block;
       width: 100%;
     }
