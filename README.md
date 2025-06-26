@@ -45,5 +45,4 @@ A modern Chrome extension to automatically close your least recently used (LRU) 
 
 ---
 
-## License
-MIT License. Feel free to use, modify, and share!
+
